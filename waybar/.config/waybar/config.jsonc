@@ -1,0 +1,31 @@
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    //"height": 35, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 2, // Gaps between modules (4px)
+    "include": ["~/.config/waybar/modules.jsonc"],
+    // Choose the order of the modules
+    "modules-left": [
+        "custom/updates",
+        "clock",
+        "wlr/taskbar", 
+        "network",
+        "bluetooth",
+        "hyprland/window"
+    ],
+    "modules-center": [
+        "hyprland/workspaces",
+        "mpris"
+    ],
+    "modules-right": [
+        "wireplumber",
+        "tray",
+        "memory",
+        "temperature",
+        "systemd-failed-units",
+        "group/cpu-load",
+        "tray",
+        "group/power"
+    ],
+}

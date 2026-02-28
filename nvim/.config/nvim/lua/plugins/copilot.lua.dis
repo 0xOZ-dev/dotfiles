@@ -1,0 +1,15 @@
+return {
+  "zbirenbaum/copilot.lua",
+  opts = {
+    -- Replace this string with the EXACT path to your downloaded node binary
+    copilot_node_command = vim.fn.expand("$HOME") .. "/.local/share/copilot-node/bin/node",
+    suggestion = {
+      enabled = true,
+      auto_trigger = true,
+      keymap = {
+        accept = "<M-l>", -- Alt + l to accept suggestion
+      },
+    },
+    panel = { enabled = true },
+  },
+}
