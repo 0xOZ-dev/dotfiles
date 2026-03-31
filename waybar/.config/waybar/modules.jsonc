@@ -3,8 +3,8 @@
          "disable-scroll": true,
          "all-outputs": true,
          "warp-on-scroll": false,
-         "format": "{name}: {icon}", 
-	     "format-icons": { 
+         "format": "{name}: {icon}",
+	     "format-icons": {
     	     "urgent": "",
              "active": "",
              "default": ""
@@ -99,7 +99,7 @@
       },
       "scroll-step": 0.2,
       "max-volume": 100,
-      "on-click": "pavucontrol",
+      "on-click": "hyprpwcenter",
       "on-click-right": "qpwgraph"
     },
     "custom/media": {
